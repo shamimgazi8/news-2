@@ -1,0 +1,50 @@
+[
+  {
+    "title": "সর্বশেষ",
+    "link": "/"
+  },
+  {
+    "title": "অর্থনিতী",
+    "link": "/about-us"
+  },
+  {
+    "title": "রাজনীতি",
+    "link": "/advisors"
+  },
+  {
+    "title": "বাণিজ্য",
+    "link": "/knowledge"
+  },
+  {
+    "title": "কোভিড-১৯",
+    "link": "/membership"
+  },
+  {
+    "title": "চাকরি",
+    "link": "/membership"
+  },
+  {
+    "title": "খেলা",
+    "link": "/membership"
+  },
+  {
+    "title": "বিনোদন",
+    "link": "/membership"
+  },
+  {
+    "title": "কেনাকাটা",
+    "link": "/membership"
+  },
+  {
+    "title": "টেক টিপস",
+    "link": "/membership"
+  },
+  {
+    "title": "ট্র্যাভেলস",
+    "link": "/membership"
+  },
+  {
+    "title": "জীবনযাপন",
+    "link": "/membership"
+  }
+]

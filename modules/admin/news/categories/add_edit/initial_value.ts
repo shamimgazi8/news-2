@@ -1,0 +1,16 @@
+export const initialValue = {
+  title: "",
+  parent_id: undefined,
+  description: "",
+  status: "ACTIVE",
+  meta_title: "",
+  keywords: "",
+  meta_keyword: "",
+  feature_img: "",
+  feature_alt: "",
+  meta_description: "",
+  heading: "",
+  sub_title: "",
+  summary: "",
+  file: "",
+};

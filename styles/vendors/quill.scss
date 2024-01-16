@@ -1,0 +1,18 @@
+.ql-editor {
+  resize: vertical !important;
+  overflow-y: auto !important;
+  min-height: 150px !important;
+}
+
+.ql-toolbar.ql-snow,
+.ql-container.ql-snow {
+  border: 1px solid #e5e7eb;
+}
+
+.ql-editor {
+  min-height: 300px; /* Adjust the height here */
+}
+
+.ql-snow .ql-tooltip {
+  z-index: 10;
+}

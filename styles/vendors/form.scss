@@ -1,0 +1,145 @@
+.auth_h_screen {
+  min-height: calc(100vh - 32px - 32px);
+}
+input {
+  font-size: 14px;
+}
+label {
+  font-size: 14px;
+  font-weight: 500 !important;
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.password_view {
+  position: absolute;
+  top: calc(50% - 10px);
+  right: 20px;
+  cursor: pointer;
+}
+.form_group {
+  position: relative;
+  label {
+    position: absolute;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #3f4254;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    background-color: #fff;
+    left: 20px;
+    top: -16px;
+    z-index: 1;
+  }
+  .astrisk {
+    color: #e50f0f;
+  }
+  input {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px 30px;
+    border: 1px solid #eee;
+    font-weight: 500;
+    font-size: 14px;
+    &.error {
+      border: 1px solid #e50f0f;
+      color: inherit;
+    }
+    &::placeholder {
+      font-size: 14px;
+      line-height: 20px;
+      color: #808291;
+      font-weight: normal;
+      opacity: 0.6;
+    }
+  }
+}
+input::-webkit-input-placeholder {
+  opacity: 0.6;
+}
+.error {
+  font-size: 13px;
+  font-weight: normal;
+  color: #e50f0f;
+}
+
+// profile edit form styles
+.form_control {
+  color: #181b31 !important;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 12px 20px;
+  &.error {
+    border: 1px solid #e50f0f;
+    color: inherit;
+  }
+}
+
+.form_control_select {
+  .ant-select-selector {
+    height: 44px !important;
+    background-color: #f9f9f9 !important;
+    border: none !important;
+    .ant-select-selection-search-input {
+      height: 44px !important;
+      background-color: #f9f9f9 !important;
+    }
+  }
+  .ant-select-selection-item {
+    display: flex;
+    align-items: center;
+    color: #181b31 !important;
+  }
+  .ant-select-selection-placeholder {
+    color: #808291;
+  }
+}
+.eye_icons {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.ant_form_container {
+  .ant-space {
+    width: 100% !important;
+  }
+  .ant-space-item {
+    width: 100% !important;
+  }
+}
+// news config and job config preview view
+.json_view {
+  div {
+    width: 100% !important;
+  }
+}
+
+.ant-select-item-option-selected {
+  background: #ffff !important;
+}
+
+// editor
+.zodit-add-new-line {
+  display: none !important;
+}
+.zodit_editor {
+  ul {
+    list-style: disc !important;
+    li {
+      list-style-image: url("/images/misc/list-icon.svg");
+      margin-left: 30px;
+      padding-left: 10px;
+    }
+  }
+  ol {
+    list-style: auto !important;
+    margin-left: 30px;
+  }
+}
